@@ -1,6 +1,6 @@
-# Interface gráfica simples para Login
+# Simple GUI for Login
 
-Meu primeiro projeto simples e apenas demonstrativo. Login de único fator.
+My first project. Simple and demonstractive. One factor auth.
 
 >Status: debugging 🐌<br>
 >Version: not applicable<br>
