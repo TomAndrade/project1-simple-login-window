@@ -35,9 +35,6 @@
             maskedTextBoxPass = new MaskedTextBox();
             buttonEnter = new Button();
             labelConexao = new Label();
-            progressBarPassivo = new ProgressBar();
-            trackBarAtiva = new TrackBar();
-            ((System.ComponentModel.ISupportInitialize)trackBarAtiva).BeginInit();
             SuspendLayout();
             // 
             // labelLogin
@@ -110,30 +107,11 @@
             labelConexao.Text = "Desconectado";
             labelConexao.TextAlign = ContentAlignment.BottomRight;
             // 
-            // progressBarPassivo
-            // 
-            progressBarPassivo.Location = new Point(203, 12);
-            progressBarPassivo.Maximum = 5;
-            progressBarPassivo.Name = "progressBarPassivo";
-            progressBarPassivo.Size = new Size(100, 23);
-            progressBarPassivo.TabIndex = 6;
-            // 
-            // trackBarAtiva
-            // 
-            trackBarAtiva.Location = new Point(8, 12);
-            trackBarAtiva.Maximum = 5;
-            trackBarAtiva.Name = "trackBarAtiva";
-            trackBarAtiva.Size = new Size(66, 45);
-            trackBarAtiva.TabIndex = 7;
-            trackBarAtiva.ValueChanged += trackBarAtiva_ValueChanged;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(315, 297);
-            Controls.Add(trackBarAtiva);
-            Controls.Add(progressBarPassivo);
             Controls.Add(labelConexao);
             Controls.Add(buttonEnter);
             Controls.Add(maskedTextBoxPass);
@@ -146,7 +124,6 @@
             MinimumSize = new Size(331, 336);
             Name = "Form1";
             Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)trackBarAtiva).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -160,7 +137,5 @@
         private MaskedTextBox maskedTextBoxPass;
         private Button buttonEnter;
         private Label labelConexao;
-        private ProgressBar progressBarPassivo;
-        private TrackBar trackBarAtiva;
     }
 }

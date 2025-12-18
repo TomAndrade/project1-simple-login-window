@@ -62,11 +62,5 @@ namespace TesteLogin
                 buttonEnter.Text = "Connect";
             }
         }
-
-        private void trackBarAtiva_ValueChanged(object sender, EventArgs e)
-        {
-            // O valor da barra progressiva será o valor do die
-            progressBarPassivo.Value = trackBarAtiva.Value;
-        }
     }
 }
